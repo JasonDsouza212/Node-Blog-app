@@ -3,9 +3,6 @@ const morgan=require('morgan');
 const mongoose=require('mongoose');
 
 const blogRouts=require("./routes/blogroutes")
-
-
-
 const  _  = require("lodash");
 const { result } = require("lodash");
 const app=express();
